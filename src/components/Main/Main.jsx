@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Main() {
   return (
-    <div>
-      <main className="container mx-auto px-6 pt-16 flex-1 text-center">
+    <div className="">
+      <main className="h-screen h-fit container mx-auto px-6 pt-16 flex-1 text-center ">
         <h2 className="text-2xl md:text-2xl lg:text-5xl text-primary uppercase mb-7">
           Welcome to
         </h2>

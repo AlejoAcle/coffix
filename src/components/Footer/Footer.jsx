@@ -2,9 +2,9 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <div>
-      <footer className="fixed bottom-0  container mx-auto p-6 flex flex-wrap  md:flex-row items-center justify-between font-black">
-        <div className="grid grid-cols-10 gap-8 px-4 py-1 md:grid-cols-4">
+    <div >
+      <footer className=" bottom-0  container mx-auto p-1 flex flex-wrap justify-between  font-black">
+        <div className="flex container mx-auto p-8 flex flex-wrap justify-between  font-black">
           <p>
             Build with{" "}
             <box-icon
@@ -15,8 +15,14 @@ export const Footer = () => {
             ></box-icon>{" "}
             by Alejo{" "}
           </p>
+          {/* <div>
+            
+          </div>
+          <div>
+            
+          </div> */}
 
-          <div className="flex -mx-6">
+          <div className="flex mx-7">
             <a
               href="#"
               className="font-black mx-3 hover:opacity-80 duration-150"
